@@ -7,7 +7,7 @@
     ResultDTO<Set<String>> saveOrUpdateUserRole(IdentityPDTO identityPDTO, SysUserRoleSavePDTO sysUserRoleSavePDTO);
 
     /**
-     * 启用禁用管理员
+     * 启用禁用管理员add
      * @param identityPDTO
      * @param sysUserRoleEnableDisablePDTO
      * @return
