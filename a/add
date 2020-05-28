@@ -1,0 +1,15 @@
+    /**
+     * 保存或编辑管理员
+     * @param identityPDTO
+     * @param sysUserRoleSavePDTO
+     * @return
+     */
+    ResultDTO<Set<String>> saveOrUpdateUserRole(IdentityPDTO identityPDTO, SysUserRoleSavePDTO sysUserRoleSavePDTO);
+
+    /**
+     * 启用禁用管理员
+     * @param identityPDTO
+     * @param sysUserRoleEnableDisablePDTO
+     * @return
+     */
+    ResultDTO<String> enableDisableUserRole(IdentityPDTO identityPDTO, SysUserRoleEnableDisablePDTO sysUserRoleEnableDisablePDTO);
