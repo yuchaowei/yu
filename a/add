@@ -16,4 +16,4 @@
      * @param sysUserRoleEnableDisablePDTO
      * @return
      */
-    ResultDTO<String> enableDisableUserRole(IdentityPDTO identityPDTO, SysUserRoleEnableDisablePDTO sysUserRoleEnableDisablePDTO);
+    ResultDTO<String> enableDisableUserRolekiki(IdentityPDTO identityPDTO, SysUserRoleEnableDisablePDTO sysUserRoleEnableDisablePDTO);
